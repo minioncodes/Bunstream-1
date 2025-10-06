@@ -21,7 +21,7 @@ export function Footer() {
               className="mt-2 flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-600 transition"
             >
               <Phone className="h-4 w-4 text-blue-600" />
-              (833) 224-9359
+              (833) 921-5472
             </a>
           </div>
 
