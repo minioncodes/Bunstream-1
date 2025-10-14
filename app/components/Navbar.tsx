@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { Menu, X, PlaySquare, Phone } from 'lucide-react'
-import { useState } from 'react'
+import Link from "next/link";
+import { Menu, X, PlaySquare, Phone } from "lucide-react";
+import { useState } from "react";
 
 export function Navbar() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm shadow-sm">
@@ -15,7 +15,6 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2 text-lg font-semibold text-gray-800 hover:text-blue-600"
         >
-          
           <span>BunStream</span>
         </Link>
 
@@ -36,11 +35,11 @@ export function Navbar() {
 
           {/* Phone CTA */}
           <a
-            href="tel:(833) 921-5472"
+            href="tel:(833) 224-9359"
             className="flex items-center gap-2 font-semibold text-gray-800 hover:text-blue-600 transition"
           >
             <Phone className="h-5 w-5 text-blue-600" />
-            (833) 921-5472
+            (833) 224-9359
           </a>
         </nav>
 
@@ -73,15 +72,15 @@ export function Navbar() {
               Plans
             </Link>
             <a
-              href="tel:(833) 921-5472"
+              href="tel:(833) 224-9359"
               className="flex items-center gap-2 font-semibold text-gray-800 hover:text-blue-600 transition"
             >
               <Phone className="h-5 w-5 text-blue-600" />
-              (833) 921-5472
+              (833) 224-9359
             </a>
           </div>
         </div>
       )}
     </header>
-  )
+  );
 }

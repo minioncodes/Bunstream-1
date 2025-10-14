@@ -9,19 +9,17 @@ export function Footer() {
           <div>
             <div className="text-lg font-semibold text-gray-900">BunStream</div>
             <p className="mt-2 text-sm text-gray-600">
-              Reliable U.S.-based device protection — keeping your tech safe from
-              drops, damage, and everyday accidents.
+              Reliable U.S.-based device protection — keeping your tech safe
+              from drops, damage, and everyday accidents.
             </p>
-            <p className="mt-2 text-sm text-gray-600">
-              support@bunstream.com
-            </p>
+            <p className="mt-2 text-sm text-gray-600">support@bunstream.com</p>
             {/* Phone number with call icon */}
             <a
               href="tel:(833)224-9359"
               className="mt-2 flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-600 transition"
             >
               <Phone className="h-4 w-4 text-blue-600" />
-              (833) 921-5472
+              (833) 224-9359
             </a>
           </div>
 
