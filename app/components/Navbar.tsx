@@ -35,11 +35,11 @@ export function Navbar() {
 
           {/* Phone CTA */}
           <a
-            href="tel:(844) 586-5473"
+            href="tel:(844) 587-5473"
             className="flex items-center gap-2 font-semibold text-gray-800 hover:text-blue-600 transition"
           >
             <Phone className="h-5 w-5 text-blue-600" />
-            (844) 586-5473
+            (844) 587-5473
           </a>
         </nav>
 
@@ -72,11 +72,11 @@ export function Navbar() {
               Plans
             </Link>
             <a
-              href="tel:(844) 586-5473"
+              href="tel:(844) 587-5473"
               className="flex items-center gap-2 font-semibold text-gray-800 hover:text-blue-600 transition"
             >
               <Phone className="h-5 w-5 text-blue-600" />
-              (844) 586-5473
+              (844) 587-5473
             </a>
           </div>
         </div>
